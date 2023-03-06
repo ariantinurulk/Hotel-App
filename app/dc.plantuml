@@ -1,0 +1,11 @@
+@startuml DiagramClassHotel
+
+class Admin {
+    -id: bigInt
+    +nama: string
+    +username: string
+    +password: string
+    +role: enum
+    +rememberToken()
+    +timestamp()
+}
